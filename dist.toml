@@ -5,6 +5,7 @@ license = "BSD-3-Clause"
 repository = "https://github.com/OxfordAbstracts/purescript-lsp-bin"
 binaries = ["purs"]
 build-command = ["bash", "build.sh"]
+allow-dirty = ["ci"]
 
 # Config for 'cargo dist'
 [dist]
