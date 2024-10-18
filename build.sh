@@ -1,11 +1,5 @@
 #!/bin/sh
 
-set -eu
-
-EXE_BASENAME=purs
-
-npm install
-
 # If we're building for cargo-dist, specify which target to build and what the
 # filename should be. cargo-dist will expect one output with a known filename.
 if [ -n "${CARGO_DIST_TARGET:-}" ]; then
