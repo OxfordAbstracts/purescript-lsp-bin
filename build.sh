@@ -6,6 +6,7 @@ if [ -n "${CARGO_DIST_TARGET:-}" ]; then
     case "${CARGO_DIST_TARGET}" in
         aarch64-apple-darwin)
             # Do nothing - binary already built
+            chmod 755 purs
             ;;
         x86_64-apple-darwin)
             # TODO once we have the intel binary, rename the intel binary to purs here
