@@ -1,6 +1,6 @@
 [package]
 name = "purescript-lsp"
-version = "1.0.9"
+version = "1.0.10"
 license = "BSD-3-Clause"
 repository = "https://github.com/OxfordAbstracts/purescript-lsp-bin"
 binaries = ["purs"]
