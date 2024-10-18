@@ -11,6 +11,7 @@ if [ -n "${CARGO_DIST_TARGET:-}" ]; then
             # TODO once we have the intel binary, rename the intel binary to purs here
             echo "Platform not supported: ${CARGO_DIST_TARGET}"
             exit 1
+            ;;
         *)
             echo "Platform not supported: ${CARGO_DIST_TARGET}"
             exit 1
