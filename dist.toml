@@ -1,11 +1,10 @@
 [package]
 name = "purescript-lsp"
-version = "1.0.7"
+version = "1.0.8"
 license = "BSD-3-Clause"
 repository = "https://github.com/OxfordAbstracts/purescript-lsp-bin"
 binaries = ["purs"]
 build-command = ["bash", "build.sh"]
-allow-dirty = ["ci"]
 
 # Config for 'cargo dist'
 [dist]
@@ -23,3 +22,4 @@ windows-archive = ".tar.gz"
 unix-archive = ".tar.gz"
 # A namespace to use when publishing this package to the npm registry
 npm-scope = "@oxfordabstracts"
+allow-dirty = ["ci"]
